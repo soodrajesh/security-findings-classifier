@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+lora-severity-checkpoints/
+tmp-eval-*/
+.cache/
+*.egg-info/
+trivy-*.err
+gcp-projects-scan.json
+private-scan.json

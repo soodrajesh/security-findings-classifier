@@ -1,0 +1,182 @@
+{"text": "Instance with unencrypted block device.. EBS block device is not encrypted.", "severity": "HIGH"}
+{"text": "Default capabilities: some containers do not drop all. Container 'gitops-demo' of Deployment 'gitops-demo-app' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "Cloud Storage Bucket Versioning Disabled. Storage bucket versioning is not enabled.", "severity": "MEDIUM"}
+{"text": "Cloud Storage Bucket Logging Not Enabled. Storage bucket logging is not configured with a target log bucket.", "severity": "MEDIUM"}
+{"text": "Default security context configured. container openai-app in default namespace is using the default security context", "severity": "HIGH"}
+{"text": "Seccomp policies disabled. container \"consumer\" of deployment \"pubsub-consumer\" in \"keda-demo\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Runs with UID <= 10000. Container 'my-sample-app' of Deployment 'my-sample-app' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop all. Container 'sphere-user' of Deployment 'sphere-user' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "Seccomp policies disabled. container \"sample-app\" of deployment \"sample-app\" in \"sample-app\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Default capabilities: some containers do not drop any. Container 'nginx' of 'deployment' 'sample-app' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "Runs with UID <= 10000. Container 'gitops-demo' of Deployment 'gitops-demo-app' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "Default security context configured. deployment gitops-demo-app in default namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "Runs as root user. Container 'sphere-user' of Deployment 'sphere-user' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Default capabilities: some containers do not drop all. Container 'openai-app' of Deployment 'openai-app' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "Point in time recovery should be enabled to protect DynamoDB table. Point-in-time recovery is not enabled.", "severity": "MEDIUM"}
+{"text": "Ensure that Cloud Storage bucket is not anonymously or publicly accessible.. Bucket allows public access.", "severity": "HIGH"}
+{"text": "Image tag \":latest\" used. Container '2048-game' of Deployment '2048-game' should specify an image tag", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"2048-game\" of deployment \"2048-game\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"openai-app\" of deployment \"openai-app\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Runs with UID <= 10000. Container 'greeter' of Deployment 'greeter' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "S3 Access block should block public ACL. Public access block does not block public ACLs", "severity": "HIGH"}
+{"text": "RDS Deletion Protection Disabled. Instance does not have Deletion Protection enabled", "severity": "MEDIUM"}
+{"text": "SSH Access Is Not Restricted. Firewall rule allows SSH access from the public internet.", "severity": "MEDIUM"}
+{"text": "Runs with UID <= 10000. Container 'sphere-user' of Deployment 'sphere-user' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "Default security context configured. container my-sample-app in default namespace is using the default security context", "severity": "HIGH"}
+{"text": "Image tag \":latest\" used. Container 'gitops-demo' of Deployment 'gitops-demo-app' should specify an image tag", "severity": "MEDIUM"}
+{"text": "S3 Access block should block public policy. Public access block does not block public policies", "severity": "HIGH"}
+{"text": "Image user should not be 'root'. Specify at least 1 USER command in Dockerfile with non-root user as argument", "severity": "HIGH"}
+{"text": "Can elevate its own privileges. Container 'sphere-user' of Deployment 'sphere-user' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Network Policy should be enabled on GKE clusters. Cluster does not have a network policy enabled.", "severity": "MEDIUM"}
+{"text": "Default security context configured. container 2048-game in default namespace is using the default security context", "severity": "HIGH"}
+{"text": "Enable Performance Insights to detect potential problems. Instance does not have performance insights enabled.", "severity": "LOW"}
+{"text": "ECS clusters should have container insights enabled. Cluster does not have container insights enabled.", "severity": "LOW"}
+{"text": "Default security context configured. deployment pubsub-consumer in keda-demo namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "RDS encryption has not been enabled at a DB Instance level.. Instance does not have storage encryption enabled.", "severity": "HIGH"}
+{"text": "S3 Access Block should Ignore Public ACL. Public access block does not ignore public ACLs", "severity": "HIGH"}
+{"text": "Runs as root user. Container 'nginx' of Deployment 'sample-app' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "EKS Clusters should have cluster control plane logging turned on. Control plane scheduler logging is not enabled.", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"nginx\" of deployment \"nginx-deployment\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Use of plain HTTP.. Listener for application load balancer does not use HTTPS.", "severity": "CRITICAL"}
+{"text": "Default capabilities: some containers do not drop any. Container '2048-game' of 'deployment' '2048-game' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "Runs with GID <= 10000. Container 'greeter' of Deployment 'greeter' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Can elevate its own privileges. Container 'nginx' of Deployment 'nginx-deployment' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Root file system is not read-only. Container 'sample-app' of Deployment 'sample-app' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Can elevate its own privileges. Container 'ml-flask-api' of Deployment 'ml-flask-api' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Prevent binding to privileged ports. deployment sample-app in default namespace should not set spec.template.spec.containers.ports.containerPort to less than 1024", "severity": "MEDIUM"}
+{"text": "EKS cluster should not have open CIDR range for public access. Cluster allows access from a public CIDR: 0.0.0.0/0", "severity": "CRITICAL"}
+{"text": "Runs as root user. Container 'nginx' of Deployment 'nginx-deployment' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "EKS Clusters should have cluster control plane logging turned on. Control plane API logging is not enabled.", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"greeter\" of deployment \"greeter\" in \"backend\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"sphere-user\" of deployment \"sphere-user\" in \"${NAMESPACE}\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "S3 Bucket Logging. Bucket has logging disabled", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop all. Container 'consumer' of Deployment 'pubsub-consumer' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "Can elevate its own privileges. Container 'my-sample-app' of Deployment 'my-sample-app' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Workloads in the default namespace. deployment ml-flask-api in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "Root file system is not read-only. Container 'nginx' of Deployment 'sample-app' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Root file system is not read-only. Container 'sphere-user' of Deployment 'sphere-user' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Root file system is not read-only. Container 'gitops-demo' of Deployment 'gitops-demo-app' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Master authorized networks should be configured on GKE clusters. Cluster does not have master authorized networks enabled.", "severity": "HIGH"}
+{"text": "Default security context configured. container nginx-deployment in default namespace is using the default security context", "severity": "HIGH"}
+{"text": "Runs as root user. Container 'sample-app' of Deployment 'sample-app' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Memory not limited. Container 'sample-app' of Deployment 'sample-app' should set 'resources.limits.memory'", "severity": "LOW"}
+{"text": "A KMS key is not configured to auto-rotate.. Key does not have rotation enabled.", "severity": "MEDIUM"}
+{"text": "Default security context configured. container sphere-user in ${NAMESPACE} namespace is using the default security context", "severity": "HIGH"}
+{"text": "Runs as root user. Container 'ml-flask-api' of Deployment 'ml-flask-api' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Can elevate its own privileges. Container 'nginx' of Deployment 'sample-app' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Default capabilities: some containers do not drop any. Container 'sphere-user' of 'deployment' 'sphere-user' in '${NAMESPACE}' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "Secrets passed via `build-args` or envs or copied secret files. Possible exposure of secret env \"API_KEY\" in ENV", "severity": "CRITICAL"}
+{"text": "Kubernetes should have 'Automatic repair' enabled. Node pool does not have auto-repair enabled.", "severity": "LOW"}
+{"text": "Memory requests not specified. Container 'openai-app' of Deployment 'openai-app' should set 'resources.requests.memory'", "severity": "LOW"}
+{"text": "Default security context configured. container ml-flask-api in default namespace is using the default security context", "severity": "HIGH"}
+{"text": "'apt-get' missing '--no-install-recommends'. '--no-install-recommends' flag is missed: 'apt-get update && apt-get install -y     gcc     curl     && apt-get upgrade -y     && apt-get clean     && rm -rf /var/lib/apt/lists/*     && rm -rf /tmp/*     && rm -rf /var/tmp/*'", "severity": "HIGH"}
+{"text": "RDS Cluster and RDS instance should have backup retention longer than default 1 day. Instance has very low backup retention period.", "severity": "MEDIUM"}
+{"text": "Restrict container images to trusted registries. Container consumer in deployment pubsub-consumer (namespace: keda-demo) uses an image from an untrusted registry.", "severity": "MEDIUM"}
+{"text": "Can elevate its own privileges. Container 'consumer' of Deployment 'pubsub-consumer' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Kinesis stream is unencrypted.. Stream does not use KMS encryption.", "severity": "HIGH"}
+{"text": "Default capabilities: some containers do not drop all. Container 'nginx' of Deployment 'nginx-deployment' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "S3 Access block should restrict public bucket to limit access. Public access block does not restrict public buckets", "severity": "HIGH"}
+{"text": "Runs with GID <= 10000. Container 'nginx' of Deployment 'sample-app' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Runs as root user. Container 'gitops-demo' of Deployment 'gitops-demo-app' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"nginx\" of deployment \"sample-app\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Instance with unencrypted block device.. Root block device is not encrypted.", "severity": "HIGH"}
+{"text": "RDS Publicly Accessible. Instance has Public Access enabled", "severity": "HIGH"}
+{"text": "Runtime/Default Seccomp profile not set. Either Pod or Container should set 'securityContext.seccompProfile.type' to 'RuntimeDefault'", "severity": "LOW"}
+{"text": "aws_instance should activate session tokens for Instance Metadata Service.. Instance does not require IMDS access to require a token.", "severity": "HIGH"}
+{"text": "Legacy metadata endpoints enabled.. Cluster has legacy metadata endpoints enabled.", "severity": "HIGH"}
+{"text": "Default security context configured. deployment openai-app in default namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "DynamoDB tables should use at rest encryption with a Customer Managed Key. Table encryption does not use a customer-managed KMS key.", "severity": "LOW"}
+{"text": "Runs with GID <= 10000. Container 'my-sample-app' of Deployment 'my-sample-app' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Seccomp policies disabled. container \"sample-app\" of deployment \"sample-app\" in \"app\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Disable Default Firewall Rules. Default firewall rule should be disabled and replaced with more restrictive rules.", "severity": "MEDIUM"}
+{"text": "Unencrypted SNS topic.. Topic does not have encryption enabled.", "severity": "HIGH"}
+{"text": "Default capabilities: some containers do not drop all. Container 'nginx' of Deployment 'sample-app' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "Workloads in the default namespace. deployment gitops-demo-app in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "Runs as root user. Container '2048-game' of Deployment '2048-game' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Default security context configured. deployment sample-app in sample-app namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "aws_instance should activate session tokens for Instance Metadata Service.. Launch template does not require IMDS access to require a token", "severity": "HIGH"}
+{"text": "Runs with GID <= 10000. Container 'nginx' of Deployment 'nginx-deployment' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop any. Container 'consumer' of 'deployment' 'pubsub-consumer' in 'keda-demo' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop all. Container 'sample-app' of Deployment 'sample-app' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "S3 Access block should block public policy. No public access block so not blocking public policies", "severity": "HIGH"}
+{"text": "Seccomp policies disabled. container \"gitops-demo\" of deployment \"gitops-demo-app\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Runs with GID <= 10000. Container 'sample-app' of Deployment 'sample-app' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop any. Container 'openai-app' of 'deployment' 'openai-app' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "CPU requests not specified. Container 'openai-app' of Deployment 'openai-app' should set 'resources.requests.cpu'", "severity": "LOW"}
+{"text": "Manage configmaps. ClusterRole 'argocd-server' should not have access to resource 'configmaps' for verbs [\"create\", \"update\", \"patch\", \"delete\", \"deletecollection\", \"impersonate\", \"*\"]", "severity": "MEDIUM"}
+{"text": "Root file system is not read-only. Container 'openai-app' of Deployment 'openai-app' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Prevent binding to privileged ports. deployment sample-app in sample-app namespace should not set spec.template.spec.containers.ports.containerPort to less than 1024", "severity": "MEDIUM"}
+{"text": "Restrict container images to trusted registries. Container 2048-game in deployment 2048-game (namespace: default) uses an image from an untrusted registry.", "severity": "MEDIUM"}
+{"text": "Runs with GID <= 10000. Container '2048-game' of Deployment '2048-game' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Security groups should not allow unrestricted ingress to SSH or RDP from any IP address.. Security group rule allows unrestricted ingress from any IP address.", "severity": "HIGH"}
+{"text": "Runs as root user. Container 'my-sample-app' of Deployment 'my-sample-app' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"ml-flask-api\" of deployment \"ml-flask-api\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "ECR Repository should use customer managed keys to allow more control. Repository is not encrypted using KMS.", "severity": "LOW"}
+{"text": "Default security context configured. container sample-app in default namespace is using the default security context", "severity": "HIGH"}
+{"text": "Default capabilities: some containers do not drop all. Container '2048-game' of Deployment '2048-game' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "S3 Access block should block public ACL. No public access block so not blocking public acls", "severity": "HIGH"}
+{"text": "CPU requests not specified. Container 'sample-app' of Deployment 'sample-app' should set 'resources.requests.cpu'", "severity": "LOW"}
+{"text": "Clusters should be configured with Labels. Cluster does not use GCE resource labels.", "severity": "LOW"}
+{"text": "Runs as root user. Container 'openai-app' of Deployment 'openai-app' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Default security context configured. deployment greeter in backend namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "Default security context configured. deployment sample-app in app namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "EKS Clusters should have the public access disabled. Public cluster access is enabled.", "severity": "CRITICAL"}
+{"text": "Runs with GID <= 10000. Container 'consumer' of Deployment 'pubsub-consumer' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "S3 Data should be versioned. Bucket does not have versioning enabled", "severity": "MEDIUM"}
+{"text": "Memory not limited. Container 'openai-app' of Deployment 'openai-app' should set 'resources.limits.memory'", "severity": "LOW"}
+{"text": "Load balancer is exposed to the internet.. Load balancer is exposed publicly.", "severity": "HIGH"}
+{"text": "Runs as root user. Container 'consumer' of Deployment 'pubsub-consumer' should set 'securityContext.runAsNonRoot' to true", "severity": "MEDIUM"}
+{"text": "Default security context configured. container sample-app in sample-app namespace is using the default security context", "severity": "HIGH"}
+{"text": "Ensure that Cloud Storage buckets have uniform bucket-level access enabled. Bucket has uniform bucket level access disabled.", "severity": "MEDIUM"}
+{"text": "Runs with GID <= 10000. Container 'gitops-demo' of Deployment 'gitops-demo-app' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop all. Container 'my-sample-app' of Deployment 'my-sample-app' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}
+{"text": "Can elevate its own privileges. Container 'openai-app' of Deployment 'openai-app' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "CPU not limited. Container 'openai-app' of Deployment 'openai-app' should set 'resources.limits.cpu'", "severity": "LOW"}
+{"text": "A security group rule should not allow unrestricted egress to any IP address.. Security group rule allows unrestricted egress to any IP address.", "severity": "CRITICAL"}
+{"text": "Runs with UID <= 10000. Container 'openai-app' of Deployment 'openai-app' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "Root file system is not read-only. Container 'my-sample-app' of Deployment 'my-sample-app' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Default capabilities: some containers do not drop any. Container 'nginx' of 'deployment' 'nginx-deployment' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "There is no encryption specified or encryption is disabled on the RDS Cluster.. Cluster does not specify a customer managed key for storage encryption.", "severity": "HIGH"}
+{"text": "Image tag \":latest\" used. Container 'my-sample-app' of Deployment 'my-sample-app' should specify an image tag", "severity": "MEDIUM"}
+{"text": "Manage secrets. ClusterRole 'argocd-application-controller' shouldn't have access to manage resource 'secrets'", "severity": "CRITICAL"}
+{"text": "EKS should have the encryption of secrets enabled. Cluster does not have secret encryption enabled.", "severity": "HIGH"}
+{"text": "RDS Cluster Deletion Protection Disabled. Cluster does not have Deletion Protection enabled", "severity": "MEDIUM"}
+{"text": "Seccomp policies disabled. container \"my-sample-app\" of deployment \"my-sample-app\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "Root file system is not read-only. Container '2048-game' of Deployment '2048-game' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Manage secrets. ClusterRole 'argocd-server' shouldn't have access to manage resource 'secrets'", "severity": "CRITICAL"}
+{"text": "No HEALTHCHECK defined. Add HEALTHCHECK instruction in your Dockerfile", "severity": "LOW"}
+{"text": "Default security context configured. container gitops-demo-app in default namespace is using the default security context", "severity": "HIGH"}
+{"text": "Kubernetes should have 'Automatic upgrade' enabled. Node pool does not have auto-upgraade enabled.", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop any. Container 'sample-app' of 'deployment' 'sample-app' in 'sample-app' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "Container capabilities must only include NET_BIND_SERVICE. container should drop all", "severity": "LOW"}
+{"text": "Secrets Manager should use customer managed keys. Secret explicitly uses the default key.", "severity": "LOW"}
+{"text": "Default security context configured. deployment my-sample-app in default namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "Runs with UID <= 10000. Container '2048-game' of Deployment '2048-game' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "Root file system is not read-only. Container 'ml-flask-api' of Deployment 'ml-flask-api' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Prevent binding to privileged ports. deployment 2048-game in default namespace should not set spec.template.spec.containers.ports.containerPort to less than 1024", "severity": "MEDIUM"}
+{"text": "Memory requests not specified. Container 'sample-app' of Deployment 'sample-app' should set 'resources.requests.memory'", "severity": "LOW"}
+{"text": "Default security context configured. container pubsub-consumer in keda-demo namespace is using the default security context", "severity": "HIGH"}
+{"text": "Prevent binding to privileged ports. deployment nginx-deployment in default namespace should not set spec.template.spec.containers.ports.containerPort to less than 1024", "severity": "MEDIUM"}
+{"text": "API Gateway must have X-Ray tracing enabled. X-Ray tracing is not enabled.", "severity": "LOW"}
+{"text": "Default security context configured. deployment sphere-user in ${NAMESPACE} namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "Default security context configured. deployment sample-app in default namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "Seccomp policies disabled. container \"sample-app\" of deployment \"sample-app\" in \"default\" namespace should specify a seccomp profile", "severity": "MEDIUM"}
+{"text": "S3 buckets should each define an aws_s3_bucket_public_access_block. Bucket does not have a corresponding public access block.", "severity": "LOW"}
+{"text": "Runs with GID <= 10000. Container 'shop' of Deployment 'shop' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Workloads in the default namespace. deployment shop in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "RDS IAM Database Authentication Disabled. Instance does not have IAM Authentication enabled", "severity": "MEDIUM"}
+{"text": "Clusters should be set to private. Cluster does not have private nodes.", "severity": "MEDIUM"}
+{"text": "S3 Access block should restrict public bucket to limit access. No public access block so not restricting public buckets", "severity": "HIGH"}
+{"text": "Root file system is not read-only. Container 'consumer' of Deployment 'pubsub-consumer' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Workloads in the default namespace. deployment nginx-deployment in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "Can elevate its own privileges. Container '2048-game' of Deployment '2048-game' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Missing description for security group rule.. Security group rule does not have a description.", "severity": "LOW"}
+{"text": "EKS Clusters should have cluster control plane logging turned on. Control plane audit logging is not enabled.", "severity": "MEDIUM"}
+{"text": "Missing description for security group.. Security group explicitly uses the default description.", "severity": "LOW"}
+{"text": "Workloads in the default namespace. deployment sample-app in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop any. Container 'gitops-demo' of 'deployment' 'gitops-demo-app' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "Prevent binding to privileged ports. deployment gitops-demo-app in default namespace should not set spec.template.spec.containers.ports.containerPort to less than 1024", "severity": "MEDIUM"}
+{"text": "EKS Clusters should have cluster control plane logging turned on. Control plane authenticator logging is not enabled.", "severity": "MEDIUM"}
+{"text": "Image tag \":latest\" used. Container 'shop' of Deployment 'shop' should specify an image tag", "severity": "MEDIUM"}
+{"text": "S3 encryption should use Customer Managed Keys. Bucket does not encrypt data with a customer managed key.", "severity": "HIGH"}
+{"text": "Default capabilities: some containers do not drop all. Container 'ml-flask-api' of Deployment 'ml-flask-api' should add 'ALL' to 'securityContext.capabilities.drop'", "severity": "LOW"}

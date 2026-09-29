@@ -1,0 +1,45 @@
+{"text": "ECR images tags shouldn't be mutable.. Repository tags are mutable.", "severity": "HIGH"}
+{"text": "Disallow unrestricted S3 IAM Policies. IAM role uses a policy that allows 's3:*' action", "severity": "HIGH"}
+{"text": "Cloud Storage buckets should be encrypted with a customer-managed key.. Storage bucket encryption does not use a customer-managed key.", "severity": "LOW"}
+{"text": "S3 Buckets not publicly accessible through ACL.. Bucket has a public ACL: \"public-read-write\"", "severity": "HIGH"}
+{"text": "CPU not limited. Container 'sample-app' of Deployment 'sample-app' should set 'resources.limits.cpu'", "severity": "LOW"}
+{"text": "No unauthorized access to API Gateway methods. Authorization is not enabled for this method.", "severity": "LOW"}
+{"text": "Runs with GID <= 10000. Container 'ml-flask-api' of Deployment 'ml-flask-api' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Can elevate its own privileges. Container 'sample-app' of Deployment 'sample-app' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Runs with UID <= 10000. Container 'ml-flask-api' of Deployment 'ml-flask-api' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "CloudWatch log groups should be encrypted using CMK. Log group is not encrypted.", "severity": "LOW"}
+{"text": "Default security context configured. deployment ml-flask-api in default namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC. After you've created a flow log, you can view and retrieve its data in Amazon CloudWatch Logs. It is recommended that VPC Flow Logs be enabled for packet \"Rejects\" for VPCs.. VPC does not have VPC Flow Logs enabled.", "severity": "MEDIUM"}
+{"text": "Runs with UID <= 10000. Container 'sample-app' of Deployment 'sample-app' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "Workloads in the default namespace. deployment my-sample-app in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "API Gateway stages for V1 and V2 should have access logging enabled. Access logging is not configured.", "severity": "MEDIUM"}
+{"text": "Image tag \":latest\" used. Container 'sample-app' of Deployment 'sample-app' should specify an image tag", "severity": "MEDIUM"}
+{"text": "Runs with UID <= 10000. Container 'consumer' of Deployment 'pubsub-consumer' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "EKS Clusters should have cluster control plane logging turned on. Control plane controller manager logging is not enabled.", "severity": "MEDIUM"}
+{"text": "Instances in a subnet should not receive a public IP address by default.. Subnet associates public IP address.", "severity": "HIGH"}
+{"text": "Workloads in the default namespace. deployment openai-app in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop any. Container 'ml-flask-api' of 'deployment' 'ml-flask-api' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "S3 Access Block should Ignore Public ACL. No public access block so not blocking public acls", "severity": "HIGH"}
+{"text": "A firewall rule should not allow unrestricted ingress from any IP address.. Firewall rule allows unrestricted ingress from any IP address.", "severity": "CRITICAL"}
+{"text": "VM disks should be encrypted with Customer Supplied Encryption Keys. Instance disk encryption does not use a customer managed key.", "severity": "LOW"}
+{"text": "Workloads in the default namespace. deployment 2048-game in default namespace should set metadata.namespace to a non-default namespace", "severity": "LOW"}
+{"text": "Runs with GID <= 10000. Container 'openai-app' of Deployment 'openai-app' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Image tag \":latest\" used. Container 'consumer' of Deployment 'pubsub-consumer' should specify an image tag", "severity": "MEDIUM"}
+{"text": "Image tag \":latest\" used. Container 'sphere-user' of Deployment 'sphere-user' should specify an image tag", "severity": "MEDIUM"}
+{"text": "Image tag \":latest\" used. Container 'nginx' of Deployment 'sample-app' should specify an image tag", "severity": "MEDIUM"}
+{"text": "Restrict container images to trusted registries. Container openai-app in deployment openai-app (namespace: default) uses an image from an untrusted registry.", "severity": "MEDIUM"}
+{"text": "Lambda functions should have X-Ray tracing enabled. Function does not have tracing enabled.", "severity": "LOW"}
+{"text": "ECR repository has image scans disabled.. Image scanning is not enabled", "severity": "HIGH"}
+{"text": "Runs with GID <= 10000. Container 'sphere-user' of Deployment 'sphere-user' should set 'securityContext.runAsGroup' > 10000", "severity": "LOW"}
+{"text": "Runs with UID <= 10000. Container 'nginx' of Deployment 'nginx-deployment' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "Default capabilities: some containers do not drop any. Container 'my-sample-app' of 'deployment' 'my-sample-app' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "Can elevate its own privileges. Container 'gitops-demo' of Deployment 'gitops-demo-app' should set 'securityContext.allowPrivilegeEscalation' to false", "severity": "MEDIUM"}
+{"text": "Root file system is not read-only. Container 'nginx' of Deployment 'nginx-deployment' should set 'securityContext.readOnlyRootFilesystem' to true", "severity": "HIGH"}
+{"text": "Load balancers should drop invalid headers. Application load balancer is not set to drop invalid headers.", "severity": "HIGH"}
+{"text": "Default security context configured. deployment 2048-game in default namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "Ensure Container-Optimized OS (cos) is used for Kubernetes Engine Clusters Node image. Node pool is not using the COS containerd image type.", "severity": "LOW"}
+{"text": "Runs with UID <= 10000. Container 'nginx' of Deployment 'sample-app' should set 'securityContext.runAsUser' > 10000", "severity": "LOW"}
+{"text": "limit range usage. A LimitRange policy with a default requests and limits for each container should be configured", "severity": "LOW"}
+{"text": "Default security context configured. deployment nginx-deployment in default namespace is using the default security context, which allows root privileges", "severity": "HIGH"}
+{"text": "Default capabilities: some containers do not drop any. Container 'sample-app' of 'deployment' 'sample-app' in 'default' namespace should set securityContext.capabilities.drop", "severity": "LOW"}
+{"text": "resource quota usage. A resource quota policy with hard memory and CPU limits should be configured per namespace", "severity": "LOW"}
